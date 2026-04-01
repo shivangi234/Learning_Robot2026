@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-03-31T15:27:48.807246" rpa="false" schemaversion="5">
+<suite id="s1" name="Frames" source="C:\Users\shivangi.sahu\PycharmProjects\PythonProject\Automation_Robot\TestCases\Frames.robot">
+<test id="s1-t1" name="Frame TestCases" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-31T15:27:49.191881" level="INFO">Opening browser 'chrome' to base url 'https://rahulshettyacademy.com/AutomationPractice/'.</msg>
+<arg>https://rahulshettyacademy.com/AutomationPractice/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-31T15:27:49.191672" elapsed="3.995766"/>
+</kw>
+<kw name="Select Frame" owner="SeleniumLibrary">
+<msg time="2026-03-31T15:27:53.189047" level="INFO">Selecting frame 'id:courses-iframe'.</msg>
+<arg>id:courses-iframe</arg>
+<doc>Sets frame identified by ``locator`` as the current frame.</doc>
+<status status="PASS" start="2026-03-31T15:27:53.188585" elapsed="0.162444"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-31T15:27:55.351844" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-31T15:27:53.351414" elapsed="2.000539"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-03-31T15:27:55.352523" level="INFO">Clicking link 'Courses'.</msg>
+<arg>Courses</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-31T15:27:55.352314" elapsed="2.266377"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-31T15:27:59.620557" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-31T15:27:57.619272" elapsed="2.001563"/>
+</kw>
+<kw name="Unselect Frame" owner="SeleniumLibrary">
+<doc>Sets the main frame as the current frame.</doc>
+<status status="PASS" start="2026-03-31T15:27:59.621674" elapsed="0.010232"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-03-31T15:28:02.633827" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-03-31T15:27:59.632736" elapsed="3.001306"/>
+</kw>
+<status status="PASS" start="2026-03-31T15:27:49.190715" elapsed="13.443917"/>
+</test>
+<status status="PASS" start="2026-03-31T15:27:48.809634" elapsed="13.826096"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Frames" id="s1" pass="1" fail="0" skip="0">Frames</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

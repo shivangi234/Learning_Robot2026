@@ -1,6 +1,5 @@
 *** Settings ***
 Library     SeleniumLibrary
-Library    XML
 *** Variables ***
 *** Test Cases ***
 AlertTestCases
@@ -13,6 +12,6 @@ AlertTestCases
         Click Button    id:confirmBtn
         Handle Alert    dismiss
 
-
+#       How to handle prompt alert [doubt]
 
 *** Keywords ***
