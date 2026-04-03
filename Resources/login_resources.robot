@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Variables ***
-${LOGIN URL}    https://admin-demo.nopcommerce.com
+${LOGIN URL}    https://admin-demo.nopcommerce.com/
 ${BROWSER}      chrome
 
 *** Keywords ***
@@ -23,6 +23,7 @@ Input pwd
         [Arguments]     ${password}
         Input Text    id:Password       ${password}
 Click Login Button
+        Wait Until Element Is Visible    xpath://button[@type="submit"]     5s
         Click Element    xpath://button[@type="submit"]
 Click Logout Link
         Click Link    Logout
